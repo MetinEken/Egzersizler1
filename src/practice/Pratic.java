@@ -22,8 +22,11 @@ public class Pratic {
 //3- listeyi ayni isimle tersten yazdirip kaydedelim		
 		
 		ListIterator temp1 =metinListe.listIterator();// iterator olusturuken, sag bastaki list
+		
 		//buyuk harfle, sol sondaki list kucuk harfle basliyor. entersting yav
+		
 		List<Integer> ters = new ArrayList();
+		
 		while(temp1.hasNext()) {
 			temp1.next();			// bu sekilde imleci sona aldik
 		}
